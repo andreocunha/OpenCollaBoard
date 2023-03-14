@@ -1,0 +1,23 @@
+.square {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.textarea {
+  padding: 5px;
+  resize: none;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 400;
+  overflow: hidden;
+  /* allow scroll horizontal */
+  white-space: nowrap;
+  /* allow scroll vertical */
+  word-wrap: break-word;
+  /* allow scroll vertical */
+  word-break: break-all;
+  background: transparent;
+}

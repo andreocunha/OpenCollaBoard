@@ -1,0 +1,38 @@
+.cardBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.cardBoard:hover {
+  box-shadow: 0 5px 10px 0 rgba(100, 100, 100, 0.8);
+}
+
+.cardBoard img {
+  border-radius: 5px 5px 0 0;
+}
+
+.cardBoardInfo {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cardBoardInfo h2 {
+  font-size: 1rem;
+}
+
+.cardBoardInfo p {
+  font-size: 0.8rem;
+  color: #ccc;
+  margin-top: 2px;
+}

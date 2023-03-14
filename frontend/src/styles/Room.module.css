@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #041834, #0A2E5B, #14437D);
+}

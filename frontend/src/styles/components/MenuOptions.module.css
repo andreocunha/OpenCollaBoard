@@ -1,0 +1,108 @@
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  width: 100%;
+  max-width: 450px;
+  height: 60px;
+  border-radius: 5px 5px 0 0;
+
+  background-color: #fff;
+
+  -webkit-box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 0px 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 1px 0px 8px 0px rgba(0,0,0,0.4);
+}
+
+.squareButton {
+  width: 80px;
+  height: 40px;
+  background-color: #6193ff;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.textButton {
+  width: 80px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dividerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  background-color: #9747FF;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.divider {
+  width: 3px;
+  height: 30px;
+  background-color: #ccc;
+  
+  transform: rotate(45deg);
+}
+
+.imageButton {
+  width: 80px;
+  height: 40px;
+  background-color: #4ab57c;
+  border-radius: 5px 5px 0 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container button:hover {
+  height: 55px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 70%;
+  }
+  .squareButton {
+    width: 50px;
+  }
+  .textButton {
+    width: 50px;
+  }
+  .dividerButton {
+    width: 50px;
+  }
+  .imageButton {
+    width: 50px;
+  }
+}

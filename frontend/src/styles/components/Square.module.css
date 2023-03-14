@@ -1,0 +1,42 @@
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #80CAFF;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 13px 20px -7px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 13px 20px -7px rgba(0,0,0,0.4);
+  box-shadow: 5px 13px 20px -7px rgba(0,0,0,0.4);
+}
+
+.textarea {
+  width: 100%;
+  height: 100%;
+  background-color: #80CAFF;
+  padding: 15px;
+  border-radius: 5px;
+  resize: none;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5px;
+  gap: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #000;
+  height: 20px;
+  width: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
