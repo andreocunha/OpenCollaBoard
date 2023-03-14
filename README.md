@@ -26,7 +26,9 @@ Para instalar e executar o OpenCollaBoard, siga os seguintes passos:
 --------------
 ### Demonstração
 
-[![OpenCollaBoard](https://img.youtube.com/vi/GqF5R3ygkMo/0.jpg)](https://www.youtube.com/watch?v=GqF5R3ygkMo "OpenCollaBoard")
+https://user-images.githubusercontent.com/54721131/225055618-5a10cf0f-a8ee-44ed-9301-dcfb84de3a40.mov
+
+[Vídeo no Youtube](https://www.youtube.com/watch?v=GqF5R3ygkMo)
 
 --------------
 ### Como colaborar
